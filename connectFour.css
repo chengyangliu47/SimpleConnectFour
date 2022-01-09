@@ -1,0 +1,29 @@
+h1 {
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 700px;
+  width: 700px;
+  background-color:DodgerBlue;
+  text-align: center;
+  background-image: url('titleImg.jpg');
+
+}
+
+button {
+  margin: 20px;
+}
+
+.gameBoardPanel {
+  margin: auto;
+}
+
+table {
+  margin: 20px;
+  width: 50vw;
+  height: 50vw;
+  margin: auto;
+}
+
+td {
+  border: solid 2px;
+}
