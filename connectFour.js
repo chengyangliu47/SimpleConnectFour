@@ -40,6 +40,7 @@ $('td').hover(function(){
 )
 */
 $('td').click(function(){
+  console.log($(this).index());
   var columnCurrent = this.className;
   var columnIndexCurrent = columnCurrent[columnCurrent.length-1];
   for (var i = 5; i >= 0; i--) {
